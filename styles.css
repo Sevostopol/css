@@ -1,0 +1,165 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+
+    font: normal 16px serif;
+}
+
+a {
+	color: #ff0000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: line-through;
+}
+
+a:active {
+	color: #000000;
+}
+
+
+.foto {
+    width: 222px;
+    border-radius: 30px;
+    box-shadow: -20px -15px 20px 0px #000000;
+}
+
+
+.info p {
+	color: #000000;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /* text-transform: capitalize; */
+    /* letter-spacing: 5px; */
+	/*	word-spacing: 42px; */
+}
+
+.info {
+	margin-bottom: 20px;
+	display: flex;
+}
+
+@media (max-width: 700px) {
+	.info {
+		display: block;
+		text-align: center;
+	}
+}
+
+
+.seti {
+	margin: 15px 5px 5px 5px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+	padding-top: 30px;
+}
+
+.bg-red {
+	background: rgba(255, 0, 0, 0.2);
+}
+
+.bg-green {
+	background: rgba(0, 128, 0, 0.2);
+/*	float: left;*/
+}
+
+.bg-yellow {
+	background: rgba(255, 255, 0, 0.3);
+}
+
+.card {
+	padding: 10px 10px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+
+.card h2 {
+	margin-bottom: 10px;
+}
+
+.table {
+	width: 100%;
+}
+
+
+/*
+.table tr:nth-child(odd){
+	background: red;
+}
+*/
+
+.link-list {
+	list-style: none;
+	padding: 0;
+}
+
+.link-list li {
+	padding: 5px;
+}
+
+.contact h2 {
+	text-align: center;
+}
+
+/*
+.form-group label {
+	display: block;
+}
+*/
+
+.form-group {
+	margin-bottom: 10px;
+}
+
+.contact input, 
+.contact textarea {
+	box-sizing: border-box;
+	border: none;
+	background: transparent;
+	border-bottom: 2px solid #ccc;
+	color: #000000;
+	padding: 15px 0 10px;
+	outline: none;
+	font-family: inherit;
+}
+
+.info-text {
+	padding: 0px 0px 100px 0px;
+	text-align: end;
+}
+
+.btm {
+	font-family: inherit;
+	cursor: pointer;
+}
+
+.btm:hover {
+	opacity: 0;
+}
+
+				/*Position*/
+
+.position {
+	position: relative;
+	border: 4px solid black;
+	margin-top: 40px;
+	padding: 20px;
+	height: 300px;
+}
+
+.box {
+	position: fixed;
+/*	position: absolute;*/
+	bottom: 50px;
+	border-radius: 50%;
+	right: 30px;
+	width: 50px;
+	height: 50px;
+	background: red;
+}
